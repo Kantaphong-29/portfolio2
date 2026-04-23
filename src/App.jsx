@@ -5,13 +5,13 @@ import Education from "../pages/Education";
 import About from "../pages/About";
 import CardDetail from "../pages/CardDetail";
 import Header from "../components/Header";
-import NotFound from "../pages/Notfound";
-import Home from "../pages/HOme";
+import NotFound from "../pages/NotFound";
+import Home from "../pages/Home";
 import Experience from "../pages/Experience";
 import Project from "../pages/Project";
 import Skill from "../pages/Skill";
 import Footer from "../components/Footer";
-import Contact from "../pages/contact";
+import Contact from "../pages/Contact";
 
 const App = () => {
   return (
