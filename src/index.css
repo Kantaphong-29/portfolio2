@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/* src/index.css */
+
+body {
+  background-color: rgb(255, 255, 255);
+  /* Add this line to set Prompt as the default font */
+  font-family: "Prompt", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Oswald", sans-serif;
+}
+
+.hover-text {
+  transition: transform 0.3s ease-in-out;
+}
+.hover-text:hover {
+  /* ทำให้ข้อความขยับขึ้น 5px */
+  transform: translateY(-5px);
+}
